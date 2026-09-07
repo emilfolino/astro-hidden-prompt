@@ -1,0 +1,25 @@
+{
+  "name": "astro-hidden-prompt",
+  "version": "1.0.0",
+  "description": "Invisible clipboard-copyable text for Astro MDX — guide LLMs when students paste assignment requirements",
+  "type": "module",
+  "exports": {
+    "./HiddenPrompt.astro": "./src/HiddenPrompt.astro"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "astro",
+    "astro-component",
+    "llm",
+    "education",
+    "academic-integrity",
+    "clipboard",
+    "hidden-text"
+  ],
+  "peerDependencies": {
+    "astro": ">=3.0.0"
+  },
+  "license": "MIT"
+}
